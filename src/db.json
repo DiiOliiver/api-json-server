@@ -1,0 +1,48 @@
+{
+  "tests-leds": [
+    {
+      "slot": "20",
+      "power": false,
+      "led_2g": false,
+      "led_4g": false,
+      "id": 1
+    },
+    {
+      "slot": "89",
+      "power": true,
+      "led_2g": false,
+      "led_4g": false,
+      "id": 2
+    },
+    {
+      "slot": "82",
+      "power": true,
+      "led_2g": false,
+      "led_4g": false,
+      "id": 3
+    },
+    {
+      "slot": "46",
+      "power": false,
+      "led_2g": false,
+      "led_4g": true,
+      "id": 4
+    },
+    {
+      "slot": "26",
+      "power": true,
+      "led_2g": true,
+      "led_4g": true,
+      "id": 5
+    },
+    {
+      "slot": "51",
+      "power": true,
+      "led_2g": true,
+      "led_4g": true,
+      "id": 6
+    }
+  ],
+  "tests-pings": [],
+  "tests-sensors": []
+}
