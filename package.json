@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server -p 4000 --watch src/db.json",
+    "start": "npx json-server -p 4000 --watch src/db.json",
     "persist": "node .\\src\\main.js"
   },
   "keywords": [],
   "author": "Diego Feitosa de Oliveira",
   "license": "ISC",
+  "engines": {
+    "node": ">=v16.16.0"
+  },
   "devDependencies": {
     "axios": "^1.6.5",
     "json-server": "v1.0.0-alpha.7"
